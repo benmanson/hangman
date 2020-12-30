@@ -102,7 +102,7 @@ int main()
     if (guessed)
         std::cout << "Congratulations, you correctly guessed " << word << std::endl;
     else
-        std::cout << "Tough luck! Try again." << std::endl;
+        std::cout << "Tough luck! You missed " << word << ". Try again." << std::endl;
     delete[] lettersGuessed;
 
     return 0;

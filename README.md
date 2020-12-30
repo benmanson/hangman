@@ -1,6 +1,6 @@
 # hangman
 
 ```
-g++ --std=c++20 src/main.cpp -o hangman
+g++ --std=c++2a src/main.cpp -o hangman
 ./hangman
 ```
